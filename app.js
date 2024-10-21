@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
               gift.classList.add("apply-shake");
               sec++;
 
-              if (sec === 5) {
+              if (sec === 1) {
                   Birthday.stopShaking(shake);
                   Birthday.fade(present);
                   Birthday.startMain();
